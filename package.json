@@ -1,0 +1,14 @@
+{
+  "name": "matthiasgarnier_3_12022022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Projet 3 : Dynamisez une page web avec des animations CSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Garnier",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
