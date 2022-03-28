@@ -1,0 +1,39 @@
+@import "../Base/police.scss";
+
+.header {
+    padding: 30px;
+    &__logo {
+        font-family:'Shrikhand','cursive';
+        margin: 0;
+        color:black;
+        text-align: center;
+    }
+}
+
+.localisation {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 1rem;
+    background-color: #f3f3f3;
+    position: relative;
+    font-size: 18px;
+    &__text {
+        font-weight: 600;
+    }
+}
+
+.research {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+    &__title {
+        margin: 0;
+    }
+    &__subtitle {
+        font-weight: 300;
+        margin: 1.5rem 0;
+    }
+}
+
+
+
