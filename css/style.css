@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
 .header {
   padding: 30px;
 }
@@ -52,6 +57,44 @@
 .research__btn:hover {
   background-color: #fff;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  background-color: #353535;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+.footer__logo {
+  color: #fff;
+  font-family: Shrikhand, "cursive";
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+.footer__liste {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__listeElement {
+  margin: 0.5rem 0;
+}
+.footer__lien {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__icone {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

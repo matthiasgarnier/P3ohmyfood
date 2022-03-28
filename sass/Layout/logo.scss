@@ -1,5 +1,10 @@
 @import "../Base/police.scss";
 
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     padding: 30px;
     &__logo {
@@ -50,6 +55,44 @@
             box-shadow: .25rem .25rem 10px rgba(0,0,0,.5);
         }
     }
+}
+
+.footer {
+    background-color: #353535;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        max-width: 1280px;
+        margin: auto;
+        position: relative;
+    }
+    &__logo {
+        color: #fff;
+        font-family: Shrikhand,"cursive";
+        font-size: 1.2rem;
+        margin: 0 0 1rem;
+    }
+    &__liste {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    &__listeElement {
+        margin: .5rem 0;
+    }
+    &__lien {
+        color: #fff;
+    text-decoration: none;
+    }
+    &__icone {
+        width: 1.2rem;
+    margin-right: .5rem;
+    }
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 
