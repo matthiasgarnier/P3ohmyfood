@@ -28,6 +28,9 @@ body {
 .localisation__text {
   font-weight: 600;
 }
+.localisation__logo {
+  padding: 0 10px 0 0;
+}
 
 .research {
   padding: 2rem;
