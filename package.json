@@ -4,7 +4,7 @@
   "description": "",
   "main": "Projet 3 : Dynamisez une page web avec des animations CSS",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
   },
   "author": "Matthias Garnier",
   "license": "ISC",
