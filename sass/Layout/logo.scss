@@ -96,6 +96,28 @@ body {
 
 .restaurants {
     padding: 30px 15px 30px 15px;
+    &__cartes {
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    }
+    &__carte {
+        background-color: #fff;
+        border-radius: 20px;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        &__img {
+            height: 200px;
+            width: 100%;
+            border: 0 solid transparent;
+            border-radius: 20px;
+            box-shadow: none;
+            object-fit: cover;
+        }
+      }
 }
 
 .footer {
