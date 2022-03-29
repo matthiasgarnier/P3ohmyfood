@@ -131,6 +131,22 @@ body {
   right: 12px;
 }
 
+.carte__container {
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.carte__texte {
+  flex: 1;
+}
+.carte__titre {
+  margin: 0 0 5px 0;
+}
+.carte__soustitre {
+  margin: 0;
+}
+
 .footer {
   background-color: #353535;
 }
@@ -192,12 +208,12 @@ footer a:hover {
 }
 .menu__header {
   font-family: "Shrikhand", "cursive";
-  padding: 15px 30px 0px 15px;
+  padding: 15px 30px 0px 25px;
 }
 .menu__titre {
   text-transform: uppercase;
   font-weight: 400;
-  padding-left: 8px;
+  padding-left: 10px;
 }
 .menu__style {
   display: flex;
