@@ -167,7 +167,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
+//Mise en page des restaurants================
+.menus {
+    display: grid;
+}
+
 .menu {
+    max-width: 100%;
+    padding: 0 15px 0 15px;
     &__img {
         max-width: 100%;
         max-height: 500px;
@@ -184,15 +191,11 @@ footer a:hover {
     &__header {
         font-family: 'Shrikhand','cursive';
     }
-}
-
-.menus {
-    display: grid;
-}
-
-.menu {
-    max-width: 100%;
-    padding: 0 15px 0 15px;
+    &__titre {
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-left: 8px;
+    }
     &__style {
         display: flex;
         background-color: #fff;
@@ -201,6 +204,12 @@ footer a:hover {
         margin: 15px 0 15px 0;
         box-shadow: 4px 4px 16px rgba(0,0,0,.1);
         cursor: pointer;
+        &__titre {
+            margin: 0;
+        }
+        &__infos {
+            margin: 0;
+        }
     }
 }
 
