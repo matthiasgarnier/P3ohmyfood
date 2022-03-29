@@ -235,6 +235,7 @@ footer a:hover {
 }
 .menu__style {
   display: flex;
+  justify-content: space-between;
   background-color: #fff;
   border-radius: 15px;
   padding: 15px;
@@ -247,6 +248,13 @@ footer a:hover {
 }
 .menu__style__infos {
   margin: 0;
+}
+.menu__style__prix {
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 10px;
 }
 
 .CBtn {
