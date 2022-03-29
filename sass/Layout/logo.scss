@@ -157,7 +157,6 @@ body {
             justify-content: center;
             cursor: pointer;
             position: relative;
-            background-color: #000;
         }
         &__style {
             background-color: white;
@@ -227,6 +226,9 @@ footer a:hover {
     &__header {
         font-family: 'Shrikhand','cursive';
         padding: 15px 30px 0px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     &__titre {
         text-transform: uppercase;
