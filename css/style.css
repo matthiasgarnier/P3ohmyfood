@@ -99,12 +99,12 @@ body {
 .navigation__position:hover {
   background-color: #ddd4ee;
 }
+.navigation__position:hover .navigation__logo {
+  color: #9356DC;
+}
 .navigation__logo {
   color: #7e7e7e;
   margin-right: 10px;
-}
-.navigation__logo:hover {
-  color: #9356DC;
 }
 
 .restaurants {
