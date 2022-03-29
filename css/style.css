@@ -186,4 +186,28 @@ footer a:hover {
   font-family: "Shrikhand", "cursive";
 }
 
+.CBtn {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.CBtn__style {
+  border: 0;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background: linear-gradient(#FF79DA, #9356DC);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.CBtn__style:hover {
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
 /*# sourceMappingURL=style.css.map */
