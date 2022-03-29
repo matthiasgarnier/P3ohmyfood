@@ -121,6 +121,15 @@ body {
   box-shadow: none;
   object-fit: cover;
 }
+.restaurants__carte__integration {
+  background-color: #99e2d0;
+  color: #1d6251;
+  padding: 8.5px;
+  border-radius: 2px;
+  position: absolute;
+  top: 16px;
+  right: 12px;
+}
 
 .footer {
   background-color: #353535;
