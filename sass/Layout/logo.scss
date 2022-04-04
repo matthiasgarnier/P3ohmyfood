@@ -97,10 +97,11 @@ body {
         background-color: #f6f6f6;
         display: flex;
         position: relative;
-       // @media (min-width: 1000px) {
-           // flex: 1;
-        //    margin: 0 0 0 30px;
-      //  }
+        ::before {
+                counter-increment: compteListe 1;
+                content: counter(compteListe) " ";
+                background: #9356dc;
+        }
         &:hover {
             background-color: rgb(221, 212, 238);
             .navigation__logo {
