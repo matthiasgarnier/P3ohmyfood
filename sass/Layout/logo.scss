@@ -87,6 +87,7 @@ body {
         margin: 0;
         padding: 0;
         list-style: none;
+        counter-reset: compteListe;
     }
     &__position {
         padding: 24px;
@@ -280,7 +281,17 @@ footer a:hover {
     &__titre {
         text-transform: uppercase;
         font-weight: 400;
-        padding-left: 10px;
+        padding: 0 0 11px 10px;
+        position: relative;
+        &::after {
+        content: "";
+        width: 46.5px;
+        height: 3.4px;
+        background-color: $color-tertiary;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        }
     }
     &__style {
         display: flex;
