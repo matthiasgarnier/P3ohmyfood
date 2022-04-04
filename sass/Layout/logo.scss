@@ -75,6 +75,11 @@ body {
 
 .navigation {
     padding: 20px 10px 20px 10px;
+    &__container {
+        max-width: 1200px;
+        margin: auto;
+        position: relative;
+    }
     &__title {
         margin-top: 0;
     }
@@ -105,12 +110,17 @@ body {
     }
     &__logo {
         color: #7e7e7e;
-        margin-right: 10px;
+        margin: 0 10px 0 11px;
     }
 }
 
 .restaurants {
     padding: 30px 15px 30px 15px;
+    &__container {
+        max-width: 1200px;
+        margin: auto;
+        position: relative;
+    }
     &__cartes {
         display: grid;
     grid-template-columns: repeat(1,1fr);

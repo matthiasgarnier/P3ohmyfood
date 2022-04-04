@@ -78,6 +78,11 @@ body {
 .navigation {
   padding: 20px 10px 20px 10px;
 }
+.navigation__container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
 .navigation__title {
   margin-top: 0;
 }
@@ -104,11 +109,16 @@ body {
 }
 .navigation__logo {
   color: #7e7e7e;
-  margin-right: 10px;
+  margin: 0 10px 0 11px;
 }
 
 .restaurants {
   padding: 30px 15px 30px 15px;
+}
+.restaurants__container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
 }
 .restaurants__cartes {
   display: grid;
