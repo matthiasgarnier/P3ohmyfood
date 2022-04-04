@@ -76,12 +76,14 @@ body {
 }
 
 .navigation {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 20px 20px 20px;
 }
 .navigation__container {
   max-width: 1200px;
   margin: auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .navigation__title {
   margin-top: 0;
@@ -137,7 +139,7 @@ body {
   margin: auto;
   position: relative;
   background-color: #F6F6F6;
-  padding: 30px 15px 30px 15px;
+  padding: 30px 20px 30px 20px;
 }
 .restaurants__cartes {
   display: flex;
@@ -150,7 +152,7 @@ body {
 }
 .restaurants__carte {
   background-color: #fff;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px;
   position: relative;
   text-decoration: none;
   color: inherit;
@@ -219,7 +221,7 @@ body {
 .footer__container {
   display: flex;
   flex-direction: column;
-  padding: 16px;
+  padding: 20px;
   max-width: 1280px;
   margin: auto;
   position: relative;
