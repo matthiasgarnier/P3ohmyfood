@@ -320,9 +320,20 @@ footer a:hover {
         cursor: pointer;
         &__titre {
             margin: 0;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        &__container {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
         &__infos {
             margin: 0;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
         &__prix {
             font-weight: 700;
