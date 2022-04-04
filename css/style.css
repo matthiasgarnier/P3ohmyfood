@@ -76,7 +76,7 @@ body {
 }
 
 .navigation {
-  padding: 20px 20px 20px 20px;
+  padding: 20px 30px 20px 30px;
 }
 .navigation__container {
   max-width: 1200px;
@@ -86,13 +86,25 @@ body {
   flex-direction: column;
 }
 .navigation__title {
-  margin-top: 0;
+  margin-top: 25px;
+}
+@media (min-width: 1200px) {
+  .navigation__title {
+    text-align: center;
+    margin-top: 35px;
+  }
 }
 .navigation__positions {
   margin: 0;
   padding: 0;
   list-style: none;
   counter-reset: compteListe;
+}
+@media (min-width: 1200px) {
+  .navigation__positions {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .navigation__position {
   padding: 24px;
@@ -125,6 +137,11 @@ body {
 .navigation__position:hover .navigation__logo {
   color: #9356DC;
 }
+@media (min-width: 1200px) {
+  .navigation__position {
+    width: 25%;
+  }
+}
 .navigation__logo {
   color: #7e7e7e;
   margin: 3.5px 15px 0 0;
@@ -139,7 +156,7 @@ body {
   margin: auto;
   position: relative;
   background-color: #F6F6F6;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 30px 30px 30px;
 }
 .restaurants__cartes {
   display: flex;
@@ -221,10 +238,15 @@ body {
 .footer__container {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 30px 20px 30px;
   max-width: 1280px;
   margin: auto;
   position: relative;
+}
+@media (min-width: 1200px) {
+  .footer__container {
+    padding: 20px 0 20px 0;
+  }
 }
 .footer__logo {
   color: #fff;
