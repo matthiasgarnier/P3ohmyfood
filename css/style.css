@@ -211,6 +211,12 @@ body {
 .footer {
   background-color: #353535;
 }
+@media (min-width: 1200px) {
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+}
 .footer__container {
   display: flex;
   flex-direction: column;
@@ -253,6 +259,7 @@ footer a:hover {
 @media (min-width: 1200px) {
   .menus {
     flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
@@ -267,12 +274,16 @@ footer a:hover {
   object-fit: cover;
 }
 .menu__container {
-  margin-top: -4rem;
+  margin-top: -60px;
   border-radius: 30px 30px 0 0;
   background-color: #f6f6f6;
   z-index: 1;
   position: relative;
-  max-width: 1200px;
+}
+@media (min-width: 1200px) {
+  .menu__container {
+    margin: -60px 50px 0 50px;
+  }
 }
 .menu__header {
   font-family: "Shrikhand", "cursive";
@@ -280,6 +291,11 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (min-width: 1200px) {
+  .menu__header__titre {
+    margin-left: 41%;
+  }
 }
 .menu__titre {
   text-transform: uppercase;
@@ -324,7 +340,7 @@ footer a:hover {
   display: flex;
   text-decoration: none;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 50px 0;
 }
 .CBtn__style {
   border: 0;
