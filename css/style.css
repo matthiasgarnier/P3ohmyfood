@@ -141,7 +141,7 @@
   color: #99E2D0;
 }
 .menu__animation {
-  animation: menu__animation 1.5s;
+  animation: menu__animation 5.5s;
 }
 .menu .delai-1 {
   animation-delay: 0.1s;
