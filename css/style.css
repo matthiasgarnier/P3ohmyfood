@@ -118,6 +118,7 @@
   align-items: center;
   justify-content: center;
   transition-duration: 0.5s;
+  border-radius: 0 20px 20px 0;
 }
 .menu__confirmation:hover {
   margin-right: -16px;
@@ -136,37 +137,53 @@
 .menu__confirmation__icone:hover {
   transform: rotate(0);
 }
-.menu .menu__icone {
+.menu__animation {
+  animation: menu__animation 1.5s;
+}
+.menu__icone {
   color: #99E2D0;
 }
-.menu .delay-0 {
-  animation-delay: 0s;
-}
-.menu .delay-1 {
+.menu .delai-1 {
   animation-delay: 0.1s;
 }
-.menu .delay-2 {
+.menu .delai-2 {
   animation-delay: 0.2s;
 }
-.menu .delay-3 {
+.menu .delai-3 {
   animation-delay: 0.3s;
 }
-.menu .delay-4 {
+.menu .delai-4 {
   animation-delay: 0.4s;
 }
-.menu .delay-5 {
+.menu .delai-5 {
   animation-delay: 0.5s;
 }
-.menu .delay-6 {
+.menu .delai-6 {
   animation-delay: 0.6s;
 }
-.menu .delay-7 {
+.menu .delai-7 {
   animation-delay: 0.7s;
 }
-.menu .delay-8 {
+.menu .delai-8 {
   animation-delay: 0.8s;
 }
+.menu .delai-9 {
+  animation-delay: 0.9s;
+}
+.menu .delai-10 {
+  animation-delay: 1s;
+}
 
+@keyframes menu__animation {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;

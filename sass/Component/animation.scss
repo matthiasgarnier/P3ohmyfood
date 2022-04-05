@@ -102,6 +102,7 @@
         align-items:center;
         justify-content:center;
         transition-duration: 0.5s;
+        border-radius: 0 20px 20px 0;
         &:hover {
             margin-right: -16px;
         }
@@ -121,15 +122,28 @@
         }
     }
 
-    .menu {
-        &__icone {
-            color: $color-tertiary;
-        }
+    &__animation {
+      animation: menu__animation 1.5s;
     }
 
-    @for $i from 0 to 9 {
-        .delay-#{$i} {
+    &__icone {
+          color: $color-tertiary;
+        }
+
+    @for $i from 1 to 11 {
+        .delai-#{$i} {
             animation-delay:  #{$i/10}s;
         }
     }
+}
+
+@keyframes menu__animation {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
 }
