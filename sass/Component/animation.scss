@@ -1,3 +1,5 @@
+
+// LOADER SPINNER ====================
 .spinner-loader {
     display: inline-block;
     position: relative;
@@ -89,3 +91,45 @@
       transform: rotate(360deg);
     }
   }
+
+  //VALIDATION MENU RESTAURANTS
+    .menu {
+    &__confirmation {
+        background-color: $color-tertiary;
+        margin: -16px -80px -16px 16px;
+        width: 64px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        transition-duration: 0.5s;
+        &:hover {
+            margin-right: -16px;
+        }
+        &__icone {
+            height: 25.5px;
+            width: 25.5px;
+            background-color: white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius: 100px;
+            transform: rotate(360deg);
+            transition-duration: 0.5s;
+            &:hover {
+                transform: rotate(0);
+            }
+        }
+    }
+
+    .menu {
+        &__icone {
+            color: $color-tertiary;
+        }
+    }
+
+    @for $i from 0 to 9 {
+        .delay-#{$i} {
+            animation-delay:  #{$i/10}s;
+        }
+    }
+}

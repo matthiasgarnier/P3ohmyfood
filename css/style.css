@@ -110,6 +110,63 @@
     transform: rotate(360deg);
   }
 }
+.menu__confirmation {
+  background-color: #99E2D0;
+  margin: -16px -80px -16px 16px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+.menu__confirmation:hover {
+  margin-right: -16px;
+}
+.menu__confirmation__icone {
+  height: 25.5px;
+  width: 25.5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+.menu__confirmation__icone:hover {
+  transform: rotate(0);
+}
+.menu .menu__icone {
+  color: #99E2D0;
+}
+.menu .delay-0 {
+  animation-delay: 0s;
+}
+.menu .delay-1 {
+  animation-delay: 0.1s;
+}
+.menu .delay-2 {
+  animation-delay: 0.2s;
+}
+.menu .delay-3 {
+  animation-delay: 0.3s;
+}
+.menu .delay-4 {
+  animation-delay: 0.4s;
+}
+.menu .delay-5 {
+  animation-delay: 0.5s;
+}
+.menu .delay-6 {
+  animation-delay: 0.6s;
+}
+.menu .delay-7 {
+  animation-delay: 0.7s;
+}
+.menu .delay-8 {
+  animation-delay: 0.8s;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
