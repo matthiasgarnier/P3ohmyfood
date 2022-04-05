@@ -83,6 +83,7 @@
     left: 12px;
     background: $color-tertiary;
   }
+
   @keyframes spinner-loader {
     0% {
       transform: rotate(0deg);
@@ -94,6 +95,7 @@
 
   //VALIDATION MENU RESTAURANTS
     .menu {
+
     &__confirmation {
         background-color: $color-tertiary;
         margin: -16px -80px -16px 16px;
@@ -106,6 +108,7 @@
         &:hover {
             margin-right: -16px;
         }
+
         &__icone {
             height: 25.5px;
             width: 25.5px;
@@ -122,17 +125,19 @@
         }
     }
 
-    &__animation {
-      animation: menu__animation 1.5s;
-    }
-
     &__icone {
           color: $color-tertiary;
         }
 
+// Animation apparition des menus================
+    &__animation {
+        animation: menu__animation 1.5s;
+    }
+
+
     @for $i from 1 to 11 {
         .delai-#{$i} {
-            animation-delay:  #{$i/10}s;
+            animation-delay: #{$i/10}s;
         }
     }
 }

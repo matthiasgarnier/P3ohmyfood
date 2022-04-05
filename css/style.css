@@ -137,11 +137,11 @@
 .menu__confirmation__icone:hover {
   transform: rotate(0);
 }
-.menu__animation {
-  animation: menu__animation 1.5s;
-}
 .menu__icone {
   color: #99E2D0;
+}
+.menu__animation {
+  animation: menu__animation 1.5s;
 }
 .menu .delai-1 {
   animation-delay: 0.1s;
