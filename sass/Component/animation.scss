@@ -95,8 +95,7 @@
 
   //VALIDATION MENU RESTAURANTS
     .menu {
-
-    &__confirmation {
+      &__confirmation {
         background-color: $color-tertiary;
         margin: -16px -80px -16px 16px;
         width: 64px;
@@ -107,12 +106,13 @@
         border-radius: 0 20px 20px 0;
         &:hover {
             margin-right: -16px;
-        }
+          }
+
 
         &__icone {
             height: 25.5px;
             width: 25.5px;
-            background-color: white;
+            background-color: $color-fonts;
             display:flex;
             align-items:center;
             justify-content:center;
@@ -131,7 +131,7 @@
 
 // Animation apparition des menus================
     &__animation {
-        animation: menu__animation 5.5s;
+        animation: menu__animation 1.5s;
     }
 
 

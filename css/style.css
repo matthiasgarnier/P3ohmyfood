@@ -126,7 +126,7 @@
 .menu__confirmation__icone {
   height: 25.5px;
   width: 25.5px;
-  background-color: white;
+  background-color: #FFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +141,7 @@
   color: #99E2D0;
 }
 .menu__animation {
-  animation: menu__animation 5.5s;
+  animation: menu__animation 1.5s;
 }
 .menu .delai-1 {
   animation-delay: 0.1s;
@@ -231,7 +231,7 @@ body {
 .research {
   padding: 30px 30px 60px 30px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #F6F6F6;
 }
 .research__title {
   margin: 0;
@@ -248,7 +248,7 @@ body {
   font-weight: 500;
   font-size: 17.5px;
   border-radius: 100px;
-  color: #fff;
+  color: #FFF;
   background-color: #686868;
   background: linear-gradient(#FF79DA, #9356DC);
   cursor: pointer;
@@ -256,7 +256,7 @@ body {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .research__btn:hover {
-  background-color: #fff;
+  background-color: #FFF;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -296,14 +296,14 @@ body {
   margin-top: 16px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
   border-radius: 20px;
-  background-color: #f6f6f6;
+  background-color: #F6F6F6;
   display: flex;
   position: relative;
 }
 .navigation__position::before {
   counter-increment: compteListe 1;
   content: counter(compteListe) " ";
-  background: #9356dc;
+  background: #9356DC;
   border-radius: 30px;
   height: 25px;
   width: 25px;
@@ -355,7 +355,7 @@ body {
   }
 }
 .restaurants__carte {
-  background-color: #fff;
+  background-color: #FFF;
   border-radius: 20px;
   position: relative;
   text-decoration: none;
@@ -373,7 +373,7 @@ body {
   object-fit: cover;
 }
 .restaurants__carte__integration {
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #1d6251;
   padding: 8.5px;
   border-radius: 2px;
@@ -410,7 +410,7 @@ body {
   position: relative;
 }
 .carte__logo__style {
-  background-color: white;
+  background-color: #FFF;
 }
 
 .footer {
@@ -436,7 +436,7 @@ body {
   }
 }
 .footer__logo {
-  color: #fff;
+  color: #FFF;
   font-family: "Shrikhand", "cursive";
   font-size: 20px;
   margin: 0 0 16px;
@@ -450,7 +450,7 @@ body {
   margin: 8px 0;
 }
 .footer__lien {
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
 }
 .footer__icone {
@@ -491,7 +491,7 @@ footer a:hover {
 .menu__container {
   margin-top: -60px;
   border-radius: 30px 30px 0 0;
-  background-color: #f6f6f6;
+  background-color: #F6F6F6;
   z-index: 1;
   position: relative;
 }
@@ -530,7 +530,7 @@ footer a:hover {
 .menu__style {
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #FFF;
   border-radius: 15px;
   padding: 15px;
   margin: 15px 0 15px 0;
@@ -574,7 +574,7 @@ footer a:hover {
   font-weight: 500;
   font-size: 17.5px;
   border-radius: 100px;
-  color: #fff;
+  color: #FFF;
   background-color: #686868;
   background: linear-gradient(#FF79DA, #9356DC);
   cursor: pointer;
@@ -582,7 +582,7 @@ footer a:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .CBtn__style:hover {
-  background-color: #fff;
+  background-color: #FFF;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
