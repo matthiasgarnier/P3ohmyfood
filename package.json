@@ -4,10 +4,12 @@
   "description": "",
   "main": "Projet 3 : Dynamisez une page web avec des animations CSS",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed"
   },
   "author": "Matthias Garnier",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "dependencies": {
     "sass": "^1.49.9"
   }
