@@ -25,7 +25,7 @@
   animation: spinner__loader 2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   transform-origin: 40px 40px;
 }
-.spinner .spinner__loader div:after {
+.spinner .spinner__loader div:before {
   content: " ";
   display: block;
   position: absolute;
@@ -37,7 +37,7 @@
 .spinner .spinner__loader > .spinner__loader--1 {
   animation-delay: -0.036s;
 }
-.spinner .spinner__loader > .spinner__loader--1::after {
+.spinner .spinner__loader > .spinner__loader--1::before {
   top: 63px;
   left: 63px;
   background: #9356DC;
@@ -45,7 +45,7 @@
 .spinner .spinner__loader > .spinner__loader--2 {
   animation-delay: -0.072s;
 }
-.spinner .spinner__loader > .spinner__loader--2::after {
+.spinner .spinner__loader > .spinner__loader--2::before {
   top: 68px;
   left: 56px;
   background: #99E2D0;
@@ -53,7 +53,7 @@
 .spinner .spinner__loader > .spinner__loader--3 {
   animation-delay: -0.108s;
 }
-.spinner .spinner__loader > .spinner__loader--3::after {
+.spinner .spinner__loader > .spinner__loader--3::before {
   top: 71px;
   left: 48px;
   background: #FF79DA;
@@ -61,7 +61,7 @@
 .spinner .spinner__loader > .spinner__loader--4 {
   animation-delay: -0.144s;
 }
-.spinner .spinner__loader > .spinner__loader--4::after {
+.spinner .spinner__loader > .spinner__loader--4::before {
   top: 72px;
   left: 40px;
   background: #9356DC;
@@ -69,7 +69,7 @@
 .spinner .spinner__loader > .spinner__loader--5 {
   animation-delay: -0.18s;
 }
-.spinner .spinner__loader > .spinner__loader--5:after {
+.spinner .spinner__loader > .spinner__loader--5::before {
   top: 71px;
   left: 32px;
   background: #99E2D0;
@@ -77,7 +77,7 @@
 .spinner .spinner__loader > .spinner__loader--6 {
   animation-delay: -0.216s;
 }
-.spinner .spinner__loader > .spinner__loader--6::after {
+.spinner .spinner__loader > .spinner__loader--6::before {
   top: 68px;
   left: 24px;
   background: #FF79DA;
@@ -85,7 +85,7 @@
 .spinner .spinner__loader > .spinner__loader--7 {
   animation-delay: -0.252s;
 }
-.spinner .spinner__loader > .spinner__loader--7::after {
+.spinner .spinner__loader > .spinner__loader--7::before {
   top: 63px;
   left: 17px;
   background: #9356DC;
@@ -93,7 +93,7 @@
 .spinner .spinner__loader > .spinner__loader--8 {
   animation-delay: -0.288s;
 }
-.spinner .spinner__loader > .spinner__loader--8::after {
+.spinner .spinner__loader > .spinner__loader--8::before {
   top: 56px;
   left: 12px;
   background: #99E2D0;
@@ -143,34 +143,34 @@
   animation: menu__animation 1.5s;
 }
 .menu .delai-1 {
-  animation-delay: 0.1s;
+  animation-delay: 0.1;
 }
 .menu .delai-2 {
-  animation-delay: 0.2s;
+  animation-delay: 0.2;
 }
 .menu .delai-3 {
-  animation-delay: 0.3s;
+  animation-delay: 0.3;
 }
 .menu .delai-4 {
-  animation-delay: 0.4s;
+  animation-delay: 0.4;
 }
 .menu .delai-5 {
-  animation-delay: 0.5s;
+  animation-delay: 0.5;
 }
 .menu .delai-6 {
-  animation-delay: 0.6s;
+  animation-delay: 0.6;
 }
 .menu .delai-7 {
-  animation-delay: 0.7s;
+  animation-delay: 0.7;
 }
 .menu .delai-8 {
-  animation-delay: 0.8s;
+  animation-delay: 0.8;
 }
 .menu .delai-9 {
-  animation-delay: 0.9s;
+  animation-delay: 0.9;
 }
 .menu .delai-10 {
-  animation-delay: 1s;
+  animation-delay: 1;
 }
 
 @keyframes menu__animation {
@@ -186,6 +186,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .header {
