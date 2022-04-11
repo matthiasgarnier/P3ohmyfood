@@ -143,34 +143,34 @@
   animation: menu__animation 1.5s;
 }
 .menu .delai-1 {
-  animation-delay: 0.1;
+  animation-delay: 0.1s;
 }
 .menu .delai-2 {
-  animation-delay: 0.2;
+  animation-delay: 0.2s;
 }
 .menu .delai-3 {
-  animation-delay: 0.3;
+  animation-delay: 0.3s;
 }
 .menu .delai-4 {
-  animation-delay: 0.4;
+  animation-delay: 0.4s;
 }
 .menu .delai-5 {
-  animation-delay: 0.5;
+  animation-delay: 0.5s;
 }
 .menu .delai-6 {
-  animation-delay: 0.6;
+  animation-delay: 0.6s;
 }
 .menu .delai-7 {
-  animation-delay: 0.7;
+  animation-delay: 0.7s;
 }
 .menu .delai-8 {
-  animation-delay: 0.8;
+  animation-delay: 0.8s;
 }
 .menu .delai-9 {
-  animation-delay: 0.9;
+  animation-delay: 0.9s;
 }
 .menu .delai-10 {
-  animation-delay: 1;
+  animation-delay: 1s;
 }
 
 @keyframes menu__animation {
@@ -401,18 +401,45 @@ body {
 }
 .carte__logo__container {
   height: 30px;
-  width: 30px;
-  background-color: initial;
+  width: 33px;
   border: 0 solid transparent;
   padding: 0;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   position: relative;
+  cursor: pointer;
+}
+.carte__logo__container:hover::before {
+  opacity: 1;
+}
+.carte__logo__container::before {
+  opacity: 0;
+  transition: 0.5s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#FF79DA, #9356DC);
 }
 .carte__logo__style {
-  background-color: #FFF;
+  transition-duration: 0.25s;
+  background-color: #FFF !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: lighten;
+}
+.carte__logo__container:hover .logo__like--noBackground {
+  opacity: 0;
 }
 
 .footer {
