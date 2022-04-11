@@ -129,7 +129,7 @@ body {
         &:hover {
             background-color: rgb(221, 212, 238);
             .navigation__logo {
-                color:#9356DC;
+                color:$color-primary;
             }
         }
         @media (min-width: 1000px) {
