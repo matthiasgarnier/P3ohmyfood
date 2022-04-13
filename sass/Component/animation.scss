@@ -111,40 +111,30 @@
   }
 
   //VALIDATION MENU RESTAURANTS
-    .menu {
-      &__confirmation {
-        background-color: $color-tertiary;
-        margin: -16px -80px -16px 16px;
-        width: 64px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        transition-duration: 0.5s;
-        border-radius: 0 20px 20px 0;
-        &:hover {
-            margin-right: -16px;
-          }
-
-
-        &__icone {
-            height: 25.5px;
-            width: 25.5px;
-            background-color: $color-fonts;
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            border-radius: 100px;
-            transform: rotate(360deg);
-            transition-duration: 0.5s;
+  .menu {
+    &__confirmation {
+   
+      &__icone {
+          height: 25.5px;
+          width: 25.5px;
+          background-color: $color-fonts;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          border-radius: 100px;
+          transform: rotate(360deg);
+          transition-duration: 0.5s;
+          color: $color-tertiary;
             &:hover {
-                transform: rotate(0);
+              transform: rotate(0);
             }
         }
+
+      &__icone {
+        color: $color-tertiary;
+      }
     }
 
-    &__icone {
-          color: $color-tertiary;
-        }
 
 // Animation apparition des menus================
     &__animation {

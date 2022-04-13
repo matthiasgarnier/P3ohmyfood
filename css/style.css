@@ -109,19 +109,6 @@
     z-index: -10;
   }
 }
-.menu__confirmation {
-  background-color: #99E2D0;
-  margin: -16px -80px -16px 16px;
-  width: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: 0.5s;
-  border-radius: 0 20px 20px 0;
-}
-.menu__confirmation:hover {
-  margin-right: -16px;
-}
 .menu__confirmation__icone {
   height: 25.5px;
   width: 25.5px;
@@ -132,11 +119,12 @@
   border-radius: 100px;
   transform: rotate(360deg);
   transition-duration: 0.5s;
+  color: #99E2D0;
 }
 .menu__confirmation__icone:hover {
   transform: rotate(0);
 }
-.menu__icone {
+.menu__confirmation__icone {
   color: #99E2D0;
 }
 .menu__animation {
@@ -505,6 +493,7 @@ footer a:hover {
 .menu {
   max-width: 100%;
   padding: 0 15px 0 15px;
+  overflow: hidden;
 }
 @media (min-width: 1000px) {
   .menu {
@@ -565,6 +554,11 @@ footer a:hover {
   margin: 15px 0 15px 0;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  overflow: hidden;
+  max-width: 100%;
+}
+.menu__style:hover .menu__confirmation {
+  margin-right: -16px;
 }
 .menu__style__titre {
   margin: 0;
@@ -589,6 +583,18 @@ footer a:hover {
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: 10px;
+}
+.menu__confirmation {
+  background-color: #99E2D0;
+  margin: -16px -80px -16px 16px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  border-radius: 0 20px 20px 0;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .CBtn {
