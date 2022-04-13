@@ -125,9 +125,6 @@
           transform: rotate(360deg);
           transition-duration: 0.5s;
           color: $color-tertiary;
-            &:hover {
-              transform: rotate(0);
-            }
         }
 
       &__icone {

@@ -379,6 +379,9 @@ footer a:hover {
         &:hover  {
             .menu__confirmation {
               margin-right: -16px;
+              &__icone {
+                transform: rotate(0);
+              }
               }
           }
         

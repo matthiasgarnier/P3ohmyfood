@@ -121,9 +121,6 @@
   transition-duration: 0.5s;
   color: #99E2D0;
 }
-.menu__confirmation__icone:hover {
-  transform: rotate(0);
-}
 .menu__confirmation__icone {
   color: #99E2D0;
 }
@@ -559,6 +556,9 @@ footer a:hover {
 }
 .menu__style:hover .menu__confirmation {
   margin-right: -16px;
+}
+.menu__style:hover .menu__confirmation__icone {
+  transform: rotate(0);
 }
 .menu__style__titre {
   margin: 0;
