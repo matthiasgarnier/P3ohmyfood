@@ -1,5 +1,7 @@
 
 // LOADER SPINNER ====================
+
+// Container du spinner ==========
 .spinner {
   position: fixed;
   height: 100%;
@@ -14,6 +16,8 @@
   animation-fill-mode: both;
   align-items: center;
   justify-content: center;
+
+  // Positionnement du loader sur la page & Comportement animation =================
   &__loader {
       display: inline-block;
       position: relative;
@@ -33,6 +37,8 @@
       border-radius: 50%;
       margin: -4px 0 0 -4px;
     }
+
+    //===== Position des points & délais au départ de l'animation"
     .spinner__loader > .spinner__loader--1 {
       animation-delay: -0.036s;
     }
@@ -133,12 +139,12 @@
     }
 
 
-// Animation apparition des menus================
+// Animation apparition des menus sur les pages restaurants ================
     &__animation {
         animation: menu__animation 1.5s;
     }
 
-
+// Delais d'apparition de chaques plats sur les pages restaurants 
     @for $i from 1 to 11 {
         .delai-#{$i} {
             animation-delay: #{$i/10}s;
