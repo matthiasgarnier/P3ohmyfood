@@ -395,6 +395,7 @@ footer a:hover {
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;
+            flex: auto;
         }
         &__infos {
             margin: 0;
