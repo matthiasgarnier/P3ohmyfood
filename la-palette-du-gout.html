@@ -4,30 +4,44 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link type="text/css" rel="stylesheet" href="./css/prefixed/style.css" />
+
+        <!-- Source pour utilisation icones -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+
+        <!-- Logo sur l'onglet de navigation -->
         <link rel="icon" type="image/png" href="img/logo/logo-ohmyfood.png" sizes="16x16" />
+
+        <!-- Nom d'onglet -->
         <title>Restaurant La Palette du Goût</title>
     </head>
+    
     <body>
+        <!-- Haut de page avec Logo ohmyfood en css -->
         <header class="header">
             <div class="header_container">
+                <!-- Flèche pour retour page d'acceuil ohmyfood -->
                 <a href="./index.html">
                     <i class="fa-arrow-left fas header__fleche"></i>
                 </a>
+                <!-- Logo -->
                 <h1 class="header__logo">ohmyfood</h1>
             </div>
         </header>
+
         <main>
+            <!-- Image d'acceuil du restaurant la note enchantée-->
             <img class="menu__img" src="./img/restaurants/desktop-x2500/la-palette-du-gout-x2500.jpg" alt="Restaurant la palette du gout" />
             <section class="menu__container">
                 <div class="menu__header">
                     <h2 class="menu__header__titre">La palette du goût</h2>
+                    <!-- Boutton Like d'un menu materialisé par un coeur -->
                     <button class="carte__logo__container">
                         <i class="fa-2x fa-heart far carte__logo__style logo__like--noBackground"></i>
                         <i class="fa-2x fa-heart fas carte__logo__style logo__like"></i>
                     </button>
                 </div>
 
+                <!-- Début du container des menus & plats proposés par le restaurant -->
                 <div class="menus">
 
                     <div class="menu">
@@ -162,11 +176,16 @@
 
                     </div>
                 </div>
+                <!-- Fin du container des menus & plats proposés par le restaurant -->
+
+                <!-- Boutton pour commander la sélection choisie-->
                 <section class="CBtn">
                     <button class="CBtn__style">Commander</button>
                 </section>
             </section>
+
         </main>
+
         <footer class="footer">
             <div class="footer__container">
                 <p class="footer__logo">ohmyfood</p>
@@ -186,19 +205,21 @@
                         </a>
                     </li>
 
-
                     <li class="footer__listeElement">
                         <a class="footer__lien" href="#">
                             <span>Mentions légales</span>
                         </a>
                     </li>
+
                     <li class="footer__listeElement">
                         <a class="footer__lien" href="mailto:contact@ohmyfood.fr">
                             <span>Contact</span>
                         </a>
                     </li>
+
                 </ul>
             </div>
         </footer>
+
     </body>
 </html>

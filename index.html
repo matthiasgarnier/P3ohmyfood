@@ -3,13 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link type="text/css" rel="stylesheet" href="./css/prefixed/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <link type="text/css" rel="stylesheet" href="./css/prefixed/style.css"/>
+
+        <!-- Source pour utilisation icones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+
+        <!-- Logo sur l'onglet de navigation -->
         <link rel="icon" type="image/png" href="img/logo/logo-ohmyfood.png" sizes="16x16" />
+
+        <!-- Nom d'onglet -->
         <title>Acceuil : ohmyfood</title>
 
     </head>
+
     <body>
+        <!-- Loader au chargement de la page-->
         <div class="spinner">
             <div class="spinner__loader">
                 <div class="spinner__loader--1"></div>
@@ -22,22 +30,27 @@
                 <div class="spinner__loader--8"></div>
             </div>
         </div>
+
         <header class="header">
             <h1 class="header__logo">ohmyfood</h1>
         </header>
+
         <main>
-            <div class="logochargement__container">
-                <div></div>
-            </div>
+
+            <!-- Localisation du secteur de recherche -->
             <section class="localisation">
                 <i class="fa-map-marker-alt fas localisation__logo"></i>
                 <span class="localisation__text">Paris, Belleville</span>
             </section>
+
+            <!-- Introduction & Bouton cliquable pour valider la recherche -->
             <section class="research">
                 <h2 class="research__title"> Réservez le menu qui<br>vous convient</h2>
                 <p class="research__subtitle"> Découvez des restaurants d'exception, séléctionnés par nos soins</p>
                 <a class="research__btn">Explorer nos restaurants</a>
             </section>
+
+            <!-- Partie Navigation expliquant sobrement les étapes à suivre pour l'utilisateur  -->
             <nav class="navigation">
                 <div class="navigation__container">
                     <h2 class="navigation__title"> Fonctionnement</h2>
@@ -57,65 +70,100 @@
                     </ol>
                 </div>
             </nav>
+
+
             <section id="restaurants" class="restaurants">
+
+                <!-- Container partie restaurants -->
                 <div class="restaurants__container">
                     <h2 class="restaurants__titre">Restaurants</h2>
+
+                    <!-- Container des 4 cartes de restaurants -->
                     <div class="restaurants__cartes">
+
+                        <!-- Restaurant 1-->
                         <a class="restaurants__carte" href="./la-palette-du-gout.html">
+                            <!-- Image du du restaurant -->
                             <img class="restaurants__carte__img" src="./img/restaurants/desktop-x1200/la-palette-du-gout-x1200.jpg" alt="La palette du goût" />
+                            
+                            <!-- Indication d'ajout récent du restaurant sur le site ohmyfood -->
                             <span class="restaurants__carte__integration">Nouveau</span>
+
                             <div class="carte__container">
                                 <div class="carte__texte">
                                     <h3 class="carte__titre">La palette du goût</h3>
                                     <p class="carte__soustitre">Ménilmontant</p>
                                 </div>
+
+                                <!-- Boutton Like d'un menu materialisé par un coeur -->
                                 <div class="carte__logo__container">
                                     <i class="fa-2x fa-heart far carte__logo__style logo__like--noBackground"></i>
                                     <i class="fa-2x fa-heart fas carte__logo__style logo__like"></i>
                                 </div>
+
                             </div>
                         </a>
 
+                        <!-- Restaurant 2-->
                         <a class="restaurants__carte" href="./la-note-enchantee.html">
+                            <!-- Image du du restaurant -->
                             <img class="restaurants__carte__img" src="./img/restaurants/desktop-x1200/la-note-enchantée-x1200.jpg" alt="La note enchantée" />
+                            
+                            <!-- Indication d'ajout récent du restaurant sur le site ohmyfood -->
                             <span class="restaurants__carte__integration">Nouveau</span>
+                            
                             <div class="carte__container">
                                 <div class="carte__texte">
                                     <h3 class="carte__titre">La note enchantée</h3>
                                     <p class="carte__soustitre">Charonne</p>
                                 </div>
+
+                                <!-- Boutton Like d'un menu materialisé par un coeur -->
                                 <div class="carte__logo__container">
                                     <i class="fa-2x fa-heart far carte__logo__style logo__like--noBackground"></i>
                                     <i class="fa-2x fa-heart fas carte__logo__style logo__like"></i>
                                 </div>
+
                             </div>
                         </a>
 
+                        <!-- Restaurant 3-->
                         <a class="restaurants__carte" href="./a-la-francaise.html">
+                            <!-- Image du du restaurant -->
                             <img class="restaurants__carte__img" src="./img/restaurants/desktop-x1200/a-la-francaise-x1200.jpg" alt="A la française" />
+                            
                             <div class="carte__container">
                                 <div class="carte__texte">
                                     <h3 class="carte__titre">A la française</h3>
                                     <p class="carte__soustitre">Cité Rouge</p>
                                 </div>
+
+                                <!-- Boutton Like d'un menu materialisé par un coeur -->
                                 <div class="carte__logo__container">
                                     <i class="fa-2x fa-heart far carte__logo__style logo__like--noBackground"></i>
                                     <i class="fa-2x fa-heart fas carte__logo__style logo__like"></i>
                                 </div>
+
                             </div>
                         </a>
 
+                        <!-- Restaurant 4-->
                         <a class="restaurants__carte" href="./le-delice-des-sens.html">
+                            <!-- Image du du restaurant -->
                             <img class="restaurants__carte__img" src="./img/restaurants/desktop-x1200/le-delice-des-sens-x1200.jpg" alt="Le délice des sens" />
+                            
                             <div class="carte__container">
                                 <div class="carte__texte">
                                     <h3 class="carte__titre">Le délice des sens</h3>
                                     <p class="carte__soustitre">Folie-Méricourt</p>
                                 </div>
+
+                                <!-- Boutton Like d'un menu materialisé par un coeur -->
                                 <div class="carte__logo__container">
                                     <i class="fa-2x fa-heart far carte__logo__style logo__like--noBackground"></i>
                                     <i class="fa-2x fa-heart fas carte__logo__style logo__like"></i>
                                 </div>
+
                             </div>
                         </a>
                     </div>
